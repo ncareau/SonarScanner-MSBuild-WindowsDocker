@@ -1,6 +1,6 @@
 # SonarScanner-MSBuild-WindowsDocker
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/ncareau/mikro-watch)](https://hub.docker.com/r/ncareau/mikro-watch)
+[![Docker Pulls](https://img.shields.io/docker/pulls/ncareau/sonarscanner-msbuild-windowsdocker)](https://hub.docker.com/r/ncareau/sonarscanner-msbuild-windowsdocker)
 
 Windows docker images for SonarScanner MSBuild with aspnet framework for testing. 
 
