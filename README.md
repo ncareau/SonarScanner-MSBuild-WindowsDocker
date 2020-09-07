@@ -39,3 +39,7 @@ Use environment variable or replace `$SONAR_` with correct values.
 4. Run `docker build`
 
         docker build -f Dockerfile-ltsc2019 -t sonarscanner-ltsc2019 .
+
+# Note
+
+This project is beeing built on self-hosted gitlab using a windows server on latest version 2004. All steps are in the `.gitlab-ci.yml`
