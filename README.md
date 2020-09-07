@@ -12,23 +12,13 @@ Use `SonarScanner.MSBuild.exe` or `C:\SonarScanner\SonarScanner.MSBuild.exe` to 
 
 # Tags
 
-latest
-
-1903
-1909
-2004
-ltsc2016
-ltsc2019
-
 | Tag              | Based on                     | Dockerfile |
 |------------------|------------------------------|------------|
-| `2004`, `latest` | `4.8-windowsservercore-2004` | [Dockerfile](https://github.com/ncareau/sonarscanner-msbuild-windowsdocker/blob/master/Dockerfile-2004) |
-|                  |                            |            |
-|                  |                            |            |
-
-tag
-based on 
-dockerfile
+| `2004`, `latest` | `4.8-windowsservercore-2004` | [Dockerfile](https://github.com/ncareau/SonarScanner-MSBuild-WindowsDocker/blob/master/Dockerfile-2004) |
+| `1909`, `latest` | `4.8-windowsservercore-1909` | [Dockerfile](https://github.com/ncareau/SonarScanner-MSBuild-WindowsDocker/blob/master/Dockerfile-1909) |
+| `1903`, `latest` | `4.8-windowsservercore-1903` | [Dockerfile](https://github.com/ncareau/SonarScanner-MSBuild-WindowsDocker/blob/master/Dockerfile-1903) |
+| `ltsc2016`, `latest` | `4.8-windowsservercore-ltsc2016` | [Dockerfile](https://github.com/ncareau/SonarScanner-MSBuild-WindowsDocker/blob/master/Dockerfile-ltsc2016) |
+| `ltsc2019`, `latest` | `4.8-windowsservercore-ltsc2019` | [Dockerfile](https://github.com/ncareau/SonarScanner-MSBuild-WindowsDocker/blob/master/Dockerfile-ltsc2019) |
 
 # How to use
 
