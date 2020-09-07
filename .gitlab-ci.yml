@@ -6,8 +6,8 @@ servercore-2004:
   stage: build
   script:
     - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
-    - docker build -f Dockerfile-2004 --isolation=hyperv -t ncareau/sonarscanner-dotnet-windowsdocker:2004 .
-    - docker push ncareau/sonarscanner-dotnet-windowsdocker:2004
+    - docker build -f Dockerfile-2004 --isolation=hyperv -t ncareau/sonarscanner-msbuild-windowsdocker:2004 .
+    - docker push ncareau/sonarscanner-msbuild-windowsdocker:2004
   only:
     - master
   tags:
@@ -17,8 +17,8 @@ servercore-1909:
   stage: build
   script:
     - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
-    - docker build -f Dockerfile-1909 --isolation=hyperv -t ncareau/sonarscanner-dotnet-windowsdocker:1909 .
-    - docker push ncareau/sonarscanner-dotnet-windowsdocker:1909
+    - docker build -f Dockerfile-1909 --isolation=hyperv -t ncareau/sonarscanner-msbuild-windowsdocker:1909 .
+    - docker push ncareau/sonarscanner-msbuild-windowsdocker:1909
   only:
     - master
   tags:
@@ -28,8 +28,8 @@ servercore-1903:
   stage: build
   script:
     - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
-    - docker build -f Dockerfile-1903 --isolation=hyperv -t ncareau/sonarscanner-dotnet-windowsdocker:1903 .
-    - docker push ncareau/sonarscanner-dotnet-windowsdocker:1903
+    - docker build -f Dockerfile-1903 --isolation=hyperv -t ncareau/sonarscanner-msbuild-windowsdocker:1903 .
+    - docker push ncareau/sonarscanner-msbuild-windowsdocker:1903
   only:
     - master
   tags:
@@ -39,8 +39,8 @@ servercore-2019ltsc:
   stage: build
   script:
     - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
-    - docker build -f Dockerfile-ltsc2019 --isolation=hyperv -t ncareau/sonarscanner-dotnet-windowsdocker:ltsc2019 .
-    - docker push ncareau/sonarscanner-dotnet-windowsdocker:ltsc2019
+    - docker build -f Dockerfile-ltsc2019 --isolation=hyperv -t ncareau/sonarscanner-msbuild-windowsdocker:ltsc2019 .
+    - docker push ncareau/sonarscanner-msbuild-windowsdocker:ltsc2019
   only:
     - master
   tags:
@@ -50,8 +50,8 @@ servercore-2016ltsc:
   stage: build
   script:
     - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
-    - docker build -f Dockerfile-ltsc2016 --isolation=hyperv -t ncareau/sonarscanner-dotnet-windowsdocker:ltsc2016 .
-    - docker push ncareau/sonarscanner-dotnet-windowsdocker:ltsc2016
+    - docker build -f Dockerfile-ltsc2016 --isolation=hyperv -t ncareau/sonarscanner-msbuild-windowsdocker:ltsc2016 .
+    - docker push ncareau/sonarscanner-msbuild-windowsdocker:ltsc2016
   only:
     - master
   tags:

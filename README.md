@@ -2,7 +2,7 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/ncareau/sonarscanner-msbuild-windowsdocker)](https://hub.docker.com/r/ncareau/sonarscanner-msbuild-windowsdocker)
 
-Windows docker images for SonarScanner MSBuild with aspnet framework for testing. 
+Windows docker images for SonarScanner MSBuild with aspnet framework for testing.
 
 * Based on [mcr.microsoft.com/dotnet/framework/sdk:4.8](https://hub.docker.com/_/microsoft-dotnet-framework-sdk/)
 * With [Sonarscanner MSBuild v4.10](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-msbuild/)
