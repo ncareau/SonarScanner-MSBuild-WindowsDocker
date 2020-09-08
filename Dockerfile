@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2016
+FROM mcr.microsoft.com/dotnet/framework/sdk:4.8
 
 ENV JAVA_PKG="server-jre-8u261-windows-x64.tar.gz" \
     JAVA_HOME="C:\\jdk1.8.0_261" \
