@@ -38,7 +38,7 @@ Use environment variable or replace `$SONAR_` with correct values.
     * Modify Dockerfile with newer java version if needed.
 4. Run `docker build`
 
-        docker build -f Dockerfile -t sonarscanner .
+        docker build -f Dockerfile -t sonarscanner-msbuild .
 
 # Note
 
